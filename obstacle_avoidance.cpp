@@ -16,7 +16,7 @@ void GoalCallback ( const geometry_msgs::PoseStamped::ConstPtr& pose_msg) // che
     double y = pose_msg->pose.position.y;
     double z = pose_msg->pose.position.z;
 
-    ROS_INFO("x: %f, y: %f, z: %f" , x, y, z);
+    ROS_INFO("x: %f, y: %f, z: %f" , x, y, );
 }
 
 
